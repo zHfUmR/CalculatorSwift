@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     
     
     //_一般最多只用在第一个参数的标签
+    //.功能没完善
     @IBAction func touchDigit(_ sender: UIButton) {
         let digit = sender.currentTitle!
         if userIsInTheMiddleOfTyping {
