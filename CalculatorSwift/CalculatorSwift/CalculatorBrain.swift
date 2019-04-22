@@ -114,7 +114,7 @@ struct CalculatorBrain {
         }
     }
     
-    mutating func setOperand(_ operand: Double) {//这个方法可以改变结构体私有变量的值得mutating标记
+    mutating func setOperand(_ operand: Double) {//这个方法可以改变结构体私有变量的值得用mutating标记
         accumulator = operand
     }
     
